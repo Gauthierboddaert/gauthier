@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <script defer src="/__/firebase/9.6.7/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.6.7/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.7/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.7/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.6.7/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+	<meta name="description" content="Je m'appelle Gauthier Boddaert et je suis à la recherche d'un contrat d'alternance en développement web">.
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauthier Boddaert</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+   
+      <!-- firebase -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+
+     <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+    <!-- MENU RESPONSIVE -->
+    
+        <div class="flex" id="a">
+            <div id="menuResponsive" class="flex">
+                <li><a class="MenuOFF" href="#my-id">Mes compétences</a></li>
+                <li ><a class="MenuOFF" href="#logi">Logiciels</a></li>
+                <li><a class="MenuOFF" href="#proj">Mes projets</a></li>
+                <li><a class="MenuOFF" href="#backgroundForm">Login</a></li> 
+            </div>
+        </div>
+    <!-- FIN MENU RESPONSIVE -->
+
+    <!-- MENU  -->
+    <div  id="header" class="flex">
+        <div id="leftPart" class="flex">
+            <h1><a class="monNom" href="#Accueil">Gauthier Boddaert</a></h1>
+        </div>
+        <div id="rightPart" class="flex">
+            <li id="responsive2"><i  style="font-size : 50px;" id="logoCroix" class="fas fa-times"></i></li>
+            <li id="responsive"><i id="logoMenu" class="fas fa-bars"></i></li>
+            <li><a href="#my-id">Mes compétences</a></li>
+            <li><a href="#proj">Mes projets</a></li>
+            <li><a href="#logi">Logiciels</a></li>
+            <li><a href="#backgroundForm">Login</a></li> 
+        </div>
+    </div>
+    <!-- FIN MENU -->
+
+    <!-- PRESENTATION  -->
+    <div id="Accueil" class="flex">
+        <div data-aos="fade-down" id="bandeGrise" class="flex">
+            <div id="description" class="flex">
+                <h2 class="texte">Mon porfolio</h2>
+                <h3  class="texte" >Actuellement en Licence Pro Développement Internet et Mobile en alternance chez Groupe Bernard</h3>
+                <div class="flex">
+                    <div style="display: flex; width: 100%; justify-content: center;" id="cv">
+                        <a href="../gauthier.zip">code source</a>
+                        <a href="">Code source Github</a>
+                    </div>
+                    <!-- <a  href="https://firebasestorage.googleapis.com/v0/b/gauthiercv-7969e.appspot.com/o/BODDAERT_GAUTHIER.pdf?alt=media&token=88064d06-8345-443c-b0a4-87f12e5a983f" target="_blank" download><i class="fas fa-user-alt"></i>Mon CV</a> -->
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- FIN PRESENTATION -->
+
+
+<!-- COMPETENCES -->
+    <div id="my-id" class="container">
+        <div class="flex">
+            <h1 >Mes compétences</h1>
+        </div>
+        <div class="mesCompetences">
+            <div class="containerCompetences">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i class="fab fa-html5"></i>
+                    <h3>Html</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#3595CF" class="fab fa-css3-alt"></i>
+                    <h3>Css</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#858eb8" class="fab fa-php"></i>
+                    <h3>Php</h3>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#EFD81D" class="fab fa-js"></i>
+                    <h3>JavaScript / Jquery</h3>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#1A171B" class="fab fa-symfony"></i>
+                    <h3>Symfony</h3>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#0270b7" class="fab fa-java"></i>
+                    <h3>java</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#0270b7" class="fab fa-python"></i>
+                <h3>Python</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#0079D6" class="fas fa-database"></i>
+                <h3>SQL</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#3FB27F" class="fab fa-vuejs"></i>
+                <h3>VueJs</h3>
+                </div>
+				<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#3FB27F" class="fab fa-node"></i>
+                <h3>NodeJs</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:black" class="fab fa-linux"></i>
+                <h3>linux</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN COMPETENCES -->
+
+    <!-- MES PROJETS -->
+    <h1  class="titre">Mes projets</h1>
+    <div id="proj" class="containerProjets">
+        <div id="wave" class="flex">
+            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1C1F23" fill-opacity="1" d="M0,32L1440,128L1440,320L0,320Z"></path>
+            </svg> 
+            
+        </div>
+        <div id="backgroundProjet" class="mesCompetences">
+            <div class="myProjects">
+                <div data-aos="fade-up-right" data-aos-duration="1000" id="containerPoject" class="containerCompetences">
+                    <div class="projet">
+                        <a href="">Site de comptabilité (CMS)</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up-left" data-aos-duration="1000" id="containerPoject"  class="containerCompetences">
+                    <div id="MPC" class="projet">
+                        <a href="https://www.metalproconsult.com/">Site MPC</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" data-aos-duration="1000" id="containerPoject"  class="containerCompetences">
+                    <div id="discord" class="projet">
+                        <a href="">Reproduction partiel de discord</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up-left" data-aos-duration="1000" id="containerPoject"  class="containerCompetences">
+                    <div id="gauthier" class="projet">
+                        <a href="">Mon portfolio</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- FIN PROJETS -->
+
+    <!-- MES LOGICIELS -->
+    <div id="backgroundLogiciels" class="container">
+        <div class="flex">
+            <h1 id="logi">Logiciels</h1>
+        </div>
+        <div class="mesCompetences">
+            <div class="containerCompetences">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:black" class="fab fa-github"></i>
+                    <h3>Github</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#0270b7" class="far fa-file-word"></i>
+                    <h3>Word</h3>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:white" class="fab fa-wordpress"></i>
+                    <h3>WordPress</h3>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:#D64135" class="fab fa-chrome"></i>
+                    <h3>Chrome</h3>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="langages">
+                    <i style="color:white" class="fab fa-discord"></i>
+                    <h3>Discord</h3>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN LOGICIELS -->
+    <!-- FORMULAIRE -->
+    <div id="backgroundForm" class="container">
+        <h1>Me contacter</h1>
+        <form data-aos="zoom-in-right"data-aos-offset="500" method="post" action="mail.php">
+            <div class="rowInput">
+                <input name="nom" class="input" placeholder="Nom"  type="text">
+                <input name="email" class="input" placeholder="Email" type="text">
+            </div>
+            <div class="columnInput">
+                <input name="sujet" class="input" placeholder="Objet" type="text">
+                <textarea name="message" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button">
+                <input class="send" type="submit">
+            </div>
+        </form>
+    </div>
+    <!-- FIN FORMULAIRE -->
+
+    
+
+    <div class="display:flex" id="firebaseui-auth-container"></div>
+    <div id="loader">Loading...</div>
+    <div style="width: 100%;text-align: center;font-size: 30px;" id="user"></div>
+    <div style="width: 100%;display: flex;justify-content: center;">
+        <button style="border: none;margin:20px 0px;width:fit-content;background-color:white;display: none; padding: 10px; color: #192534;" id="button">Se déconnecter</button>
+    </div>
+    
+    <!-- FOOOTER -->
+    <div class="footer">
+        <p>© 2021 Copyright : Gauthier Boddaert</p> 
+    </div>
+
+<script>
+    
+        AOS.init();
+    document.addEventListener('DOMContentLoaded', function() {
+        firebase
+      .storage()
+      .ref("BODDAERT_GAUTHIER.pdf")
+      .getDownloadURL()
+      .then((link) => {
+        console.log(link);
+        var a = document.createElement("a");
+        var linkText = document.createTextNode("Mon CV");
+        a.appendChild(linkText);
+        a.href = link;
+        document.getElementById("cv").appendChild(a);
+      });
+    const loadEl = document.querySelector('#load');
+
+    var uiConfig = {
+        callbacks: {
+            signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+                return true;
+            },
+            uiShown: function() {
+                document.getElementById('loader').style.display = 'none';
+            }
+        },
+        signInFlow: 'popup',
+        signInSuccessUrl: 'index.html',
+        signInOptions: [
+            firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+            firebase.auth.EmailAuthProvider.PROVIDER_ID,
+            firebase.auth.PhoneAuthProvider.PROVIDER_ID
+        ],
+    };
+
+
+
+
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+    ui.start('#firebaseui-auth-container', {
+        signInOptions: [{
+            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+        }],
+    });
+
+    if (ui.isPendingRedirect()) {
+        ui.start('#firebaseui-auth-container', uiConfig);
+    }
+    if (firebase.auth().isSignInWithEmailLink(window.location.href)) {
+        ui.start('#firebaseui-auth-container', uiConfig);
+    }
+
+    ui.start('#firebaseui-auth-container', uiConfig);
+
+
+    firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+            document.getElementById("firebaseui-auth-container").style.display = "none";
+            var div = document.createElement("div");
+            var Text = document.createTextNode("Connecté en tant que " + user.displayName);
+            div.appendChild(Text);
+            document.getElementById("user").appendChild(div);
+            var btn = document.getElementById("button");
+            btn.style.display = "block";
+            btn.addEventListener("click", function() {
+                firebase.auth().signOut().then(function() {
+                        location.reload();
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    });
+
+            });
+
+
+        } else {
+
+        }
+    });
+
+});
+</script>
+</body>
+</html>

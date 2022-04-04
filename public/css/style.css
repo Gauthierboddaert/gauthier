@@ -1,0 +1,544 @@
+* {
+  margin: unset;
+  padding: unset;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #192534;
+  overflow-x: hidden;
+}
+
+#header {
+  width: 100%;
+  box-shadow: -1px 5px 11px -4px rgb(0 0 0 / 57%);
+  z-index: 100;
+  position: fixed;
+  background-color: white;
+  top: 0%;
+}
+#leftPart {
+  width: 30%;
+  border-right: solid black 1px;
+  position: sticky;
+}
+#leftPart h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#rightPart {
+  width: 70%;
+  list-style: none;
+  justify-content: flex-end;
+  position: sticky;
+}
+a {
+  padding: 10px;
+  font-size: 15px;
+}
+li i {
+  display: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  transition: 1.5s;
+}
+li a:hover {
+  font-weight: bold;
+  transition: ease-in-out;
+}
+li {
+  text-align: center;
+  padding: 20px;
+}
+
+#responsive {
+  display: none;
+}
+#responsive2 {
+  display: none;
+  font-size: 50px;
+  padding: 20px 20px 10px;
+}
+#menuResponsive {
+  display: none;
+}
+#a {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  color: black;
+  z-index: 98;
+  position: fixed;
+  overflow: hidden;
+}
+
+#Accueil {
+  width: 100%;
+  min-height: 95vh;
+  background: url("../img/laptop-2838921_960_720.webp") center / cover no-repeat;
+  -o-background: cover;
+  -moz-background: cover;
+  -webkit-background: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+#bandeGrise {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+#description {
+  width: 50%;
+  flex-direction: column;
+}
+#description div:last-child {
+  width: 100%;
+  justify-content: center;
+}
+#description a {
+  text-decoration: none;
+  border: white solid 2rem;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.fas {
+  padding: 0 5px 0 0;
+}
+.far {
+  padding: 0 5px 0 0;
+}
+#description a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: white;
+  box-shadow: none;
+  transition: 300ms ease-in-out;
+  border-radius: 0.3rem;
+}
+#description h2 {
+  font-size: 4em;
+  letter-spacing: 0.3em;
+}
+#description h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.texte {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+#Competences {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container h1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 40px;
+}
+
+.mesCompetences {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monNom {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.containerCompetences {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerCompetences i {
+  font-size: 10em;
+
+  color: #dd4b25;
+}
+
+.langages {
+  width: 33.33%;
+  color: white;
+  display: flex;
+  padding: 40px 0 40px 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.langages h3 {
+  padding: 5px;
+}
+
+/* PROJETS */
+.containerProjets {
+  width: 100%;
+  overflow: hidden;
+}
+#containerProjets {
+  display: flex;
+  flex-direction: column;
+}
+#wave {
+  display: flex;
+  flex-direction: column;
+}
+
+.titre {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: 258px;
+  font-size: 40px;
+}
+#backgroundProjet {
+  background-color: #1c1f23;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.myProjects {
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#containerPoject {
+  width: 40%;
+  padding-bottom: 100px;
+}
+
+.projet {
+  width: 500px;
+  height: 340px;
+  background: url("../img/Dolibarr.PNG");
+  box-shadow: 60px -16px #192534;
+  border-radius: 15px;
+}
+
+#MPC {
+  background: url("../img/mpc.png");
+}
+#discord {
+  background: url("../img/discord.png") center / cover no-repeat;
+}
+#gauthier {
+  background: url("../img/moi.PNG");
+  background-position: center;
+}
+.projet a {
+  height: 94%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+
+.projet:hover a {
+  display: flex;
+  transition: all ease-in-out;
+}
+
+/* LOGICIELS */
+
+#backgroundLogiciels {
+  background-color: #1c1f23;
+  padding: 40px 0;
+}
+
+/* FIN LOGICIELS */
+
+/* FORMULAIRE */
+#backgroundForm {
+  background-color: #1c1f23;
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+}
+#backgroundForm h1 {
+  padding-bottom: 50px;
+}
+form {
+  background-color: #192534;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  border-radius: 7px;
+}
+.input {
+  padding: 10px;
+  width: 100%;
+  margin-right: 30px;
+  background-color: #192534;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px white;
+  color: white;
+}
+.rowInput {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  flex-direction: row;
+}
+.columnInput {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+textarea {
+  padding-top: 20px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #192534;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px white;
+  color: white;
+}
+
+.send {
+  border: solid 1px white;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.send:hover {
+  background-color: #1c1f23;
+  padding: 10px;
+  color: white;
+  border: solid 1px #1c1f23;
+  transition: 300ms ease-in-out;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* FIN FORMULAIRE */
+
+/* RESPONSIVE */
+@media screen and (max-width: 1149px) {
+  .monNom {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #containerPoject {
+    width: 100%;
+  }
+
+  .titre {
+    top: 153px;
+  }
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  li {
+    display: none;
+  }
+  #responsive {
+    display: flex;
+    font-size: 40px;
+  }
+  .monNom {
+    border-right: solid 0.5px black;
+  }
+  #menuResponsive {
+    display: flex;
+    z-index: 500;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .MenuOFF {
+    font-size: 21px;
+  }
+  #menuResponsive li {
+    display: flex;
+    color: black;
+    z-index: 999;
+  }
+  .titre {
+    top: 140px;
+  }
+
+  #bandeGrise {
+    height: 450px;
+  }
+  .langages {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #description h2 {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    padding: 10px 0 0 0;
+  }
+  #description h3 {
+    font-size: 20px;
+    text-align: start;
+    width: 200px;
+  }
+  #description a {
+    padding: 10px 0 10px 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  #description h2 {
+    font-size: 40px;
+  }
+  .containerCompetences {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #description h2 {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    padding: 10px 0 0 0;
+  }
+  #leftPart {
+    border: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .container h1 {
+    padding: 10px 0;
+  }
+  .projet {
+    width: 300px;
+    height: 240px;
+    box-shadow: 40px -16px #192534;
+  }
+  .myProjects {
+    padding-top: 80px;
+  }
+  form {
+    box-shadow: 28px 25px white;
+  }
+  .MenuOFF {
+    font-size: 18px;
+  }
+  #rowInput {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projet {
+    width: 250px;
+  }
+  .myProjects {
+    padding-top: 120px;
+  }
+  .monNom {
+    padding: 0px 20px;
+  }
+
+  #leftPart h1 {
+    padding-left: 20px;
+  }
+}
